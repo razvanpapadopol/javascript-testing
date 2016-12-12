@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite tests="1" errors="0" failures="1" time="0.005" timestamp="2016-12-12T14:53:09">
-		<testcase classname="suite1" name="should be true" time="0.003">
+	<testsuite tests="1" errors="0" failures="1" time="0.005" timestamp="2016-12-12T15:03:32">
+		<testcase classname="suite1" name="should be true" time="0.004">
 			<failure type="toBeTruthy" message="Expected false to be truthy.">
 stack@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1640:37
 buildExpectationResult@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1610:19
