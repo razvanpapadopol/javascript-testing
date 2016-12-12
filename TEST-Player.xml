@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="5" errors="0" failures="1" time="0.006" timestamp="2016-12-12T12:33:03">
+		<testcase classname="suite2" name="should be able to play a Song" time="0.002">
+		</testcase>
+		<testcase classname="suite2" name="should indicate that the song is currently paused" time="0">
+		</testcase>
+		<testcase classname="suite2" name="should be possible to resume" time="0">
+		</testcase>
+		<testcase classname="suite2" name="tells the current song if the user has made it a favorite" time="0.001">
+		</testcase>
+		<testcase classname="suite2" name="should throw an exception if song is already playing" time="0.002">
+			<failure type="toThrowError" message="Expected function to throw an exception with message &amp;apos;song is already playing&amp;apos;, but it threw an exception with message &amp;apos;song is not playing&amp;apos;.">
+stack@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1640:37
+buildExpectationResult@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1610:19
+expectationResultFactory@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:655:40
+addExpectationResult@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:342:58
+addExpectationResult@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:599:41
+file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1564:32
+file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/spec/PlayerSpec.js:55:22
+attemptSync@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1950:28
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1938:20
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1923:13
+queueRunnerFactory@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:714:42
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:371:28
+fn@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:2579:44
+attemptAsync@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1980:28
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1935:21
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1923:13
+queueRunnerFactory@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:714:42
+fn@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:2564:31
+attemptAsync@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1980:28
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1935:21
+file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1962:19
+file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1905:11
+complete@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:383:19
+clearStack@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:677:11
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1945:22
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1923:13
+queueRunnerFactory@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:714:42
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:371:28
+fn@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:2579:44
+attemptAsync@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1980:28
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1935:21
+file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1962:19
+file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1905:11
+onComplete@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:2567:21
+clearStack@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:677:11
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1945:22
+file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1962:19
+file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1905:11
+complete@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:383:19
+clearStack@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:677:11
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1945:22
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1923:13
+queueRunnerFactory@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:714:42
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:371:28
+fn@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:2579:44
+attemptAsync@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1980:28
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1935:21
+file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1962:19
+file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1905:11
+complete@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:383:19
+clearStack@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:677:11
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1945:22
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1923:13
+queueRunnerFactory@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:714:42
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:371:28
+fn@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:2579:44
+attemptAsync@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1980:28
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1935:21
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1923:13
+queueRunnerFactory@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:714:42
+fn@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:2564:31
+attemptAsync@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1980:28
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1935:21
+file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1962:19
+file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1905:11
+complete@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:383:19
+clearStack@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:677:11
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1945:22
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1923:13
+queueRunnerFactory@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:714:42
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:371:28
+fn@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:2579:44
+attemptAsync@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1980:28
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1935:21
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1923:13
+queueRunnerFactory@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:714:42
+fn@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:2564:31
+attemptAsync@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1980:28
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1935:21
+file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1962:19
+file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1905:11
+onComplete@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:2567:21
+clearStack@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:677:11
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1945:22
+file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1962:19
+file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1905:11
+complete@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:383:19
+clearStack@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:677:11
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1945:22
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1923:13
+queueRunnerFactory@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:714:42
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:371:28
+fn@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:2579:44
+attemptAsync@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1980:28
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1935:21
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1923:13
+queueRunnerFactory@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:714:42
+fn@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:2564:31
+attemptAsync@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1980:28
+run@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1935:21
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:1923:13
+queueRunnerFactory@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:714:42
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:2426:25
+execute@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/jasmine.js:776:24
+onload@file:///C:/Users/rpapadopol/Documents/_Projects/Jenkins/javascript-testing-sample-project/workspace/lib/boot.js:172:16			</failure>
+		</testcase>
+	</testsuite>
+</testsuites>
+
