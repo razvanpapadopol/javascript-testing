@@ -1,11 +1,11 @@
-var Calculator = function(element){
-  this.el = element;
+var Calculator = function(displayElement){
+    this.$el = $(displayElement);
 };
 
-Calculator.prototype.add = function(a, b){
-  $(this.el).html(a + b);
+Calculator.prototype.hideResult = function(cb){
+  this.$el.fadeOut(1000, cb);
 }
 
-Calculator.prototype.divide = function(a, b){
-  $(this.el).html(a / b);
-}
+Calculator.prototype.pauseBeforeHiding = function(cb){
+  setTimeout(cb, 2000);
+};

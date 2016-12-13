@@ -1,10 +1,10 @@
-describe("Calculator", function() {
+describe("CalculatorDOM", function() {
   var calc;
   var OutputId = "#calc-fixture";
 
   beforeEach(function(){
     $('body').append($('#template-wrapper').html().replace('-template', ''));
-    calc = new Calculator($(OutputId));
+    calc = new CalculatorDOM($(OutputId));
   });
 
   afterEach(function(){

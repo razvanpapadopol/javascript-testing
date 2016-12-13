@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite tests="5" errors="0" failures="0" time="0.005" timestamp="2016-12-12T15:03:32">
-		<testcase classname="suite2" name="should be able to play a Song" time="0.001">
+	<testsuite tests="5" errors="0" failures="0" time="0.006" timestamp="2016-12-12T15:05:33">
+		<testcase classname="suite2" name="should be able to play a Song" time="0.002">
 		</testcase>
-		<testcase classname="suite2" name="should indicate that the song is currently paused" time="0.001">
+		<testcase classname="suite2" name="should indicate that the song is currently paused" time="0">
 		</testcase>
 		<testcase classname="suite2" name="should be possible to resume" time="0">
 		</testcase>
 		<testcase classname="suite2" name="tells the current song if the user has made it a favorite" time="0.002">
 		</testcase>
-		<testcase classname="suite2" name="should throw an exception if song is already playing" time="0">
+		<testcase classname="suite2" name="should throw an exception if song is already playing" time="0.001">
 		</testcase>
 	</testsuite>
 </testsuites>

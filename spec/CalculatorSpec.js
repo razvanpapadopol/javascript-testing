@@ -1,23 +1,72 @@
+//jasmine.DEFAULT_TIMEOUT_INTERVAL = 10000;
 describe("Calculator", function() {
+
   var calc;
-  beforeEach(function(){
-    calc = new Calculator();
-    jasmine.addMatchers(customMatchers);
+
+  describe('FX Tests', function() {
+    var el;
+
+    beforeEach(function() {
+      el = $("<div style='display: block'>some content</div>");
+      $("#container").append(el);
+      calc = new Calculator(el);
+    });
+
+    afterEach(function() {
+      el.remove();
+    });
+
+    it('should work with a visual effect', function(done) {
+      var callback = function(){
+        expect(el.css("display")).toBe("none");
+        done();
+      }
+      calc.hideResult(callback);
+    });
+
   });
 
-  it("should be able to add 1 plus 1", function() {
-    expect(calc.add(1, 1)).toBe(2);
+  describe('pause before hiding', function(){
+    it('should call my function after two seconds', function(done) {
+      var calc = new Calculator();
+      var flag = false;
+      var cb = function() {
+        flag = true;
+      }
+
+      calc.pauseBeforeHiding(cb);
+      expect(flag).toBeFalsy();
+
+      setTimeout(function(){
+        expect(flag).toBeTruthy();
+        done();
+      }, 2200);
+
+    })
   });
 
-  xit("should be able to add 100 plus 200", function() {
-    expect(calc.add(100, 200)).toBe(2);
-  });
+  describe('mock clock', function() {
+    beforeEach(function() {
+      jasmine.clock().install();
+    });
 
-  it("should be able to divide 6 by 2", function() {
-    expect(calc.divide(6, 2)).toBe(3);
-  });
+    it('should call my callback after two seconds - mock clock', function() {
+      var calc = new Calculator();
+      var callbackCalled = false;
 
-  it("should be able to divide a rational number", function() {
-    expect(calc.divide(1, 3)).toBeBetween([0.3, 0.4]);
+      var callback = function() {
+        callbackCalled = true;
+      };
+
+      calc.pauseBeforeHiding(callback);
+      jasmine.clock().tick(1999);
+      expect(callbackCalled).toBeFalsy();
+      jasmine.clock().tick(2001);
+      expect(callbackCalled).toBeTruthy();
+    });
+
+    afterEach(function() {
+      jasmine.clock().uninstall();
+    });
   });
 });
