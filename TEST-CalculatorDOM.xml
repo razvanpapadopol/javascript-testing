@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-	<testsuite tests="1" errors="0" failures="0" time="0.007" timestamp="2016-12-13T08:56:19">
-		<testcase classname="suite9" name="should be able to add 1 plus 1" time="0.007">
-		</testcase>
-	</testsuite>
-</testsuites>
-

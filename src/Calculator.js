@@ -3,7 +3,7 @@ var Calculator = function(displayElement){
 };
 
 Calculator.prototype.hideResult = function(cb){
-  this.$el.fadeOut(100, cb);
+  this.$el.fadeOut(1000, cb);
 }
 
 Calculator.prototype.pauseBeforeHiding = function(cb){

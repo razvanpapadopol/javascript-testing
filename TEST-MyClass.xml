@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite tests="1" errors="0" failures="0" time="0.004" timestamp="2016-12-13T08:56:15">
+	<testsuite tests="1" errors="0" failures="0" time="0.004" timestamp="2016-12-12T15:05:33">
 		<testcase classname="suite1" name="should be true" time="0.002">
 		</testcase>
 	</testsuite>

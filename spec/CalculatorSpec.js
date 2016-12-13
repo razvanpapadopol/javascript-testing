@@ -1,3 +1,4 @@
+//jasmine.DEFAULT_TIMEOUT_INTERVAL = 10000;
 describe("Calculator", function() {
 
   var calc;
@@ -25,7 +26,7 @@ describe("Calculator", function() {
 
   });
 
-  xdescribe('pause before hiding', function(){
+  describe('pause before hiding', function(){
     it('should call my function after two seconds', function(done) {
       var calc = new Calculator();
       var flag = false;
