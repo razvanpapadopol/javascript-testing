@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite tests="1" errors="0" failures="0" time="0.004" timestamp="2016-12-12T15:05:33">
-		<testcase classname="suite5" name="should be able to add 1 plus 1" time="0.004">
+	<testsuite tests="3" errors="0" failures="0" time="3.216" timestamp="2016-12-13T08:56:15">
+		<testcase classname="suite5" name="should work with a visual effect" time="1.009">
+		</testcase>
+		<testcase classname="suite5" name="should call my function after two seconds" time="2.201">
+		</testcase>
+		<testcase classname="suite5" name="should call my callback after two seconds - mock clock" time="0.005">
 		</testcase>
 	</testsuite>
 </testsuites>
